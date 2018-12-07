@@ -26,5 +26,4 @@ for player in players:  # Go over each player
 # Calculate their winnings using the formula!
 winnings = 100 ** len(top_player['numbers'].intersection(lottery_numbers))
  
-# Then print out—here in Udemy we have to use .format, but normally you'd want to use f-strings.
 print('{} won {}.'.format(top_player['name'], winnings))
